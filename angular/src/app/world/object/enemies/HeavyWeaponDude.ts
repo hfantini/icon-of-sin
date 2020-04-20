@@ -92,6 +92,9 @@ export class HeavyWeaponDude extends Enemy
         sequenceController.addChild(spriteSequenceDeath);   
     }
 
+	// == EVENTS(S)
+    // ==============================================================================================	
+
     // OVERRIDED
     protected onLoadContent(self:Enemy)
     {
@@ -100,9 +103,6 @@ export class HeavyWeaponDude extends Enemy
         this.MAX_ATTACK_LOOP = 5;
     }
 
-	// == EVENTS(S)
-    // ==============================================================================================	
-	
 	// == GETTER(S) & SETTER(S)
     // ==============================================================================================		
 }

@@ -9,6 +9,11 @@ import { Enemy } from './object/enemies/Enemy';
 import { EnemyState } from './strucutures/EnemyState';
 import { FormerSergeant } from './object/enemies/FormerSergeant';
 import { HeavyWeaponDude } from './object/enemies/HeavyWeaponDude';
+import { Imp } from './object/enemies/Imp';
+import { Pink } from './object/enemies/Pink';
+import { LostSoul } from './object/enemies/LostSoul';
+import { Cacodemon } from './object/enemies/Cacodemon';
+import { HellKnight } from './object/enemies/HellKnight';
 
 // == CLASS
 // ==================================================================================================
@@ -63,6 +68,7 @@ export class MainWorld extends World2D
         var background = new Background("background");
         this.addChild(background);
 
+        /*
         // ENEMY: Forman Human
         var enemyFormerHuman = new FormerHuman("formerHuman");
         enemyFormerHuman.updatable = false;
@@ -80,6 +86,36 @@ export class MainWorld extends World2D
         enemyHeavyWeaponDude.updatable = false;
         enemyHeavyWeaponDude.drawable = false;
         this.addChild(enemyHeavyWeaponDude);
+
+        // ENEMY: Imp
+        var enemyImp = new Imp("enemyImp");
+        enemyImp.updatable = false;
+        enemyImp.drawable = false;
+        this.addChild(enemyImp);
+        
+        // ENEMY: Pink
+        var enemyPink = new Pink("enemyPink");
+        enemyPink.updatable = false;
+        enemyPink.drawable = false;
+        this.addChild(enemyPink);
+
+        // ENEMY: Lost Soul
+        var enemyLostSoul = new LostSoul("enemyLostSoul");
+        enemyLostSoul.updatable = false;
+        enemyLostSoul.drawable = false;
+        this.addChild(enemyLostSoul);     
+        
+        // ENEMY: Cacodemon
+        var enemyCacodemon = new Cacodemon("enemyCacodemon");
+        enemyCacodemon.updatable = false;
+        enemyCacodemon.drawable = false;
+        this.addChild(enemyCacodemon);*/ 
+
+        // ENEMY: Cacodemon
+        var enemyHellKnight = new HellKnight("enemyHellKnight");
+        enemyHellKnight.updatable = false;
+        enemyHellKnight.drawable = false;
+        this.addChild(enemyHellKnight);        
     }
 
     // OVERRIDED
