@@ -112,7 +112,7 @@ export abstract class Enemy extends Sprite
 
             if(this._loopCount < self.MAX_WALKING_LOOP )
             {
-                if(seqController.currentActiveSequence.sequenceFinished)
+                if(seqController.currentActiveSequence.loopCounter > 0)
                 {
                     self._loopCount++;
                 }
@@ -145,7 +145,7 @@ export abstract class Enemy extends Sprite
                 }
             }
 
-            if(seqController.currentActiveSequence.sequenceFinished)
+            if(seqController.currentActiveSequence.loopCounter > 0)
             {
                 if(seqController.currentActiveSequence.loopCounter >= this.MAX_ATTACK_LOOP)
                 {

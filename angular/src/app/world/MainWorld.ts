@@ -99,6 +99,7 @@ export class MainWorld extends World2D
     // OVERRIDED
     protected onUpdate(self:MainWorld, timing:Timing):void
     {
+        console.log(timing.deltaTime);
         if(this.state == EngineObjectState.RUNNING)
         {
             super.onUpdate(self, timing);

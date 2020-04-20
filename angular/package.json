@@ -19,7 +19,7 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
-    "dographics-library": "git+https://gitlab.certsys.com.br/fabrica-bauru/dographics-library-dist#master",
+    "dographics-library": "git+https://x-oauth-basic:trvFc1obNG27_cYjyh9D@gitlab.certsys.com.br/fabrica-bauru/dographics-library-dist#master",
     "howler": "^2.1.3",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
