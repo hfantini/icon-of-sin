@@ -14,6 +14,12 @@ import { Pink } from './object/enemies/Pink';
 import { LostSoul } from './object/enemies/LostSoul';
 import { Cacodemon } from './object/enemies/Cacodemon';
 import { HellKnight } from './object/enemies/HellKnight';
+import { BaronOfHell } from './object/enemies/BaronOfHell';
+import { Arachnotron } from './object/enemies/Arachnotron';
+import { PainElemental } from './object/enemies/PainElemental';
+import { Revenant } from './object/enemies/Revenant';
+import { Mancubus } from './object/enemies/Mancubus';
+import { Archville } from './object/enemies/Archville';
 
 // == CLASS
 // ==================================================================================================
@@ -109,13 +115,51 @@ export class MainWorld extends World2D
         var enemyCacodemon = new Cacodemon("enemyCacodemon");
         enemyCacodemon.updatable = false;
         enemyCacodemon.drawable = false;
-        this.addChild(enemyCacodemon);*/ 
+        this.addChild(enemyCacodemon);
 
         // ENEMY: Cacodemon
         var enemyHellKnight = new HellKnight("enemyHellKnight");
         enemyHellKnight.updatable = false;
         enemyHellKnight.drawable = false;
-        this.addChild(enemyHellKnight);        
+        this.addChild(enemyHellKnight);         
+
+        // ENEMY: Baron of Hell
+        var enemyBaronOfHell = new BaronOfHell("enemyBaronOfHell");
+        enemyBaronOfHell.updatable = false;
+        enemyBaronOfHell.drawable = false;
+        this.addChild(enemyBaronOfHell);     
+        
+        // ENEMY: Arachnotron
+        var enemyArachnotron = new Arachnotron("enemyArachnotron");
+        enemyArachnotron.updatable = false;
+        enemyArachnotron.drawable = false;
+        this.addChild(enemyArachnotron);       
+
+        // ENEMY: Pain Elemental
+        var enemyPainElemental = new PainElemental("enemyPainElemental");
+        enemyPainElemental.updatable = false;
+        enemyPainElemental.drawable = false;
+        this.addChild(enemyPainElemental);         
+
+        // ENEMY: Revenant
+        var enemyRevenant = new Revenant("enemyRevenant");
+        enemyRevenant.updatable = false;
+        enemyRevenant.drawable = false;
+        this.addChild(enemyRevenant);  
+             
+
+        // ENEMY: Mancubus
+        var enemyMancubus = new Mancubus("enemyMancubus");
+        enemyMancubus.updatable = false;
+        enemyMancubus.drawable = false;
+        this.addChild(enemyMancubus);        
+        */   
+
+        // ENEMY: Archville
+        var enemyArchville = new Archville("enemyArchville");
+        enemyArchville.updatable = false;
+        enemyArchville.drawable = false;
+        this.addChild(enemyArchville);              
     }
 
     // OVERRIDED

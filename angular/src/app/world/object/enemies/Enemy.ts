@@ -31,7 +31,7 @@ export abstract class Enemy extends Sprite
 
     protected _enemyState:EnemyState = EnemyState.STATE_WALKING; 
     protected _loopCount = 0;
-    protected _currentAttack = 1;
+    protected _currentAttack = 0;
     protected _transform:GeometricalTransform;
     protected _inputMouse:InputMouse;
     protected _timeOfDeath:number = null;
@@ -122,7 +122,6 @@ export abstract class Enemy extends Sprite
                 if( seqController.hasSequence( "attack_" + (this._currentAttack + 1) ) )
                 {
                     this._currentAttack++;
-                    seqController.changeCurrentSequence( "attack_" + this._currentAttack )
                 }
                 else
                 {
@@ -139,9 +138,19 @@ export abstract class Enemy extends Sprite
             {
                 seqController.changeCurrentSequence("attack_" + this._currentAttack);
 
-                if (audioController.getState("attack") != AudioPlayerState.PLAYING)
+                if(this._currentAttack == 1)
                 {
-                    audioController.play("attack");
+                    if (audioController.getState("attack") != AudioPlayerState.PLAYING)
+                    {
+                        audioController.play("attack");
+                    }
+                }
+                else
+                {
+                    if (audioController.getState("attack" + this._currentAttack) != AudioPlayerState.PLAYING)
+                    {
+                        audioController.play("attack" + this._currentAttack);
+                    }
                 }
             }
 
@@ -174,6 +183,7 @@ export abstract class Enemy extends Sprite
 
                 if(timing.elapsedTime - this._timeOfDeath > this.DELAY_NEXT_ENEMY)
                 {
+                    this._currentAttack = 0;
                     this._timeOfDeath = null;
                     self._enemyState = EnemyState.STATE_NEXT;
                 }
