@@ -39,7 +39,7 @@ export class HeavyWeaponDude extends Enemy
         var audioController = this.getChildByName("audioController") as AudioController;
 
         // == AUDIO: Attack
-        var sndAttack = new AudioContent("attack", "/assets/enemies/heavyweapondude/attack.wav");
+        var sndAttack = new AudioContent("attack", "/assets/enemies/heavyweapondude/attack.mp3");
         audioController.addChild(sndAttack);
 
         // == AUDIO: Death
@@ -54,12 +54,13 @@ export class HeavyWeaponDude extends Enemy
 
         // == SPRITES: Walking
 
+        this.MAX_WALKING_LOOP = 4;
         var spriteSequenceWalk = new SpriteSequence("walk");
         spriteSequenceWalk.addChild( new SpriteImage("walk_01", "/assets/enemies/heavyweapondude/walk_01.png") );
         spriteSequenceWalk.addChild( new SpriteImage("walk_02", "/assets/enemies/heavyweapondude/walk_02.png") );
         spriteSequenceWalk.addChild( new SpriteImage("walk_03", "/assets/enemies/heavyweapondude/walk_03.png") );
         spriteSequenceWalk.addChild( new SpriteImage("walk_04", "/assets/enemies/heavyweapondude/walk_04.png") );
-        spriteSequenceWalk.imageUpdateRate = 20;
+        spriteSequenceWalk.imageUpdateRate = 40;
         spriteSequenceWalk.strategy = SpriteSequenceStrategy.CONTINOUS;
 
         sequenceController.addChild(spriteSequenceWalk);
@@ -69,8 +70,8 @@ export class HeavyWeaponDude extends Enemy
         var spriteSequenceAttack = new SpriteSequence("attack_1");
         spriteSequenceAttack.addChild( new SpriteImage("attack_01", "/assets/enemies/heavyweapondude/attack_01.png") );
         spriteSequenceAttack.addChild( new SpriteImage("attack_02", "/assets/enemies/heavyweapondude/attack_02.png") );
-        spriteSequenceAttack.imageUpdateRate = 15;
-        spriteSequenceAttack.strategy = SpriteSequenceStrategy.BOOMERANG;
+        spriteSequenceAttack.imageUpdateRate = 45;
+        spriteSequenceAttack.strategy = SpriteSequenceStrategy.CONTINOUS;
 
         sequenceController.addChild(spriteSequenceAttack);
 
@@ -84,12 +85,15 @@ export class HeavyWeaponDude extends Enemy
         spriteSequenceDeath.addChild( new SpriteImage("death_05", "/assets/enemies/heavyweapondude/death_05.png") );
         spriteSequenceDeath.addChild( new SpriteImage("death_06", "/assets/enemies/heavyweapondude/death_06.png") );
         spriteSequenceDeath.addChild( new SpriteImage("death_07", "/assets/enemies/heavyweapondude/death_07.png") );
-        spriteSequenceDeath.imageUpdateRate = 15;
+        spriteSequenceDeath.imageUpdateRate = 40;
         spriteSequenceDeath.strategy = SpriteSequenceStrategy.CONTINOUS;
         spriteSequenceDeath.loop = false
 
         sequenceController.addChild(spriteSequenceDeath);   
     }
+
+	// == EVENTS(S)
+    // ==============================================================================================	
 
     // OVERRIDED
     protected onLoadContent(self:Enemy)
@@ -99,9 +103,6 @@ export class HeavyWeaponDude extends Enemy
         this.MAX_ATTACK_LOOP = 5;
     }
 
-	// == EVENTS(S)
-    // ==============================================================================================	
-	
 	// == GETTER(S) & SETTER(S)
     // ==============================================================================================		
 }

@@ -59,7 +59,7 @@ export class FormerSergeant extends Enemy
         spriteSequenceWalk.addChild( new SpriteImage("walk_02", "/assets/enemies/formersergeant/walk_02.png") );
         spriteSequenceWalk.addChild( new SpriteImage("walk_03", "/assets/enemies/formersergeant/walk_03.png") );
         spriteSequenceWalk.addChild( new SpriteImage("walk_04", "/assets/enemies/formersergeant/walk_04.png") );
-        spriteSequenceWalk.imageUpdateRate = 20;
+        spriteSequenceWalk.imageUpdateRate = 60;
         spriteSequenceWalk.strategy = SpriteSequenceStrategy.CONTINOUS;
 
         sequenceController.addChild(spriteSequenceWalk);
@@ -69,7 +69,7 @@ export class FormerSergeant extends Enemy
         var spriteSequenceAttack = new SpriteSequence("attack_1");
         spriteSequenceAttack.addChild( new SpriteImage("attack_01", "/assets/enemies/formersergeant/attack_01.png") );
         spriteSequenceAttack.addChild( new SpriteImage("attack_02", "/assets/enemies/formersergeant/attack_02.png") );
-        spriteSequenceAttack.imageUpdateRate = 15;
+        spriteSequenceAttack.imageUpdateRate = 40;
         spriteSequenceAttack.strategy = SpriteSequenceStrategy.BOOMERANG;
 
         sequenceController.addChild(spriteSequenceAttack);
@@ -83,7 +83,7 @@ export class FormerSergeant extends Enemy
         spriteSequenceDeath.addChild( new SpriteImage("death_04", "/assets/enemies/formersergeant/death_04.png") );
         spriteSequenceDeath.addChild( new SpriteImage("death_05", "/assets/enemies/formersergeant/death_05.png") );
         spriteSequenceDeath.addChild( new SpriteImage("death_06", "/assets/enemies/formersergeant/death_06.png") );
-        spriteSequenceDeath.imageUpdateRate = 15;
+        spriteSequenceDeath.imageUpdateRate = 40;
         spriteSequenceDeath.strategy = SpriteSequenceStrategy.CONTINOUS;
         spriteSequenceDeath.loop = false
 
@@ -92,7 +92,15 @@ export class FormerSergeant extends Enemy
 
 	// == EVENTS(S)
     // ==============================================================================================	
-	
+    
+    // OVERRIDED
+    protected onLoadContent(self:Enemy)
+    {
+        super.onLoadContent(self);
+
+        this.MAX_WALKING_LOOP = 5;
+    }
+
 	// == GETTER(S) & SETTER(S)
     // ==============================================================================================		
 }

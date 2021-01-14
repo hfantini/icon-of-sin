@@ -9,6 +9,17 @@ import { Enemy } from './object/enemies/Enemy';
 import { EnemyState } from './strucutures/EnemyState';
 import { FormerSergeant } from './object/enemies/FormerSergeant';
 import { HeavyWeaponDude } from './object/enemies/HeavyWeaponDude';
+import { Imp } from './object/enemies/Imp';
+import { Pink } from './object/enemies/Pink';
+import { LostSoul } from './object/enemies/LostSoul';
+import { Cacodemon } from './object/enemies/Cacodemon';
+import { HellKnight } from './object/enemies/HellKnight';
+import { BaronOfHell } from './object/enemies/BaronOfHell';
+import { Arachnotron } from './object/enemies/Arachnotron';
+import { PainElemental } from './object/enemies/PainElemental';
+import { Revenant } from './object/enemies/Revenant';
+import { Mancubus } from './object/enemies/Mancubus';
+import { Archville } from './object/enemies/Archville';
 
 // == CLASS
 // ==================================================================================================
@@ -63,6 +74,7 @@ export class MainWorld extends World2D
         var background = new Background("background");
         this.addChild(background);
 
+        /*
         // ENEMY: Forman Human
         var enemyFormerHuman = new FormerHuman("formerHuman");
         enemyFormerHuman.updatable = false;
@@ -80,6 +92,74 @@ export class MainWorld extends World2D
         enemyHeavyWeaponDude.updatable = false;
         enemyHeavyWeaponDude.drawable = false;
         this.addChild(enemyHeavyWeaponDude);
+
+        // ENEMY: Imp
+        var enemyImp = new Imp("enemyImp");
+        enemyImp.updatable = false;
+        enemyImp.drawable = false;
+        this.addChild(enemyImp);
+        
+        // ENEMY: Pink
+        var enemyPink = new Pink("enemyPink");
+        enemyPink.updatable = false;
+        enemyPink.drawable = false;
+        this.addChild(enemyPink);
+
+        // ENEMY: Lost Soul
+        var enemyLostSoul = new LostSoul("enemyLostSoul");
+        enemyLostSoul.updatable = false;
+        enemyLostSoul.drawable = false;
+        this.addChild(enemyLostSoul);     
+        
+        // ENEMY: Cacodemon
+        var enemyCacodemon = new Cacodemon("enemyCacodemon");
+        enemyCacodemon.updatable = false;
+        enemyCacodemon.drawable = false;
+        this.addChild(enemyCacodemon);
+
+        // ENEMY: Cacodemon
+        var enemyHellKnight = new HellKnight("enemyHellKnight");
+        enemyHellKnight.updatable = false;
+        enemyHellKnight.drawable = false;
+        this.addChild(enemyHellKnight);         
+
+        // ENEMY: Baron of Hell
+        var enemyBaronOfHell = new BaronOfHell("enemyBaronOfHell");
+        enemyBaronOfHell.updatable = false;
+        enemyBaronOfHell.drawable = false;
+        this.addChild(enemyBaronOfHell);     
+        
+        // ENEMY: Arachnotron
+        var enemyArachnotron = new Arachnotron("enemyArachnotron");
+        enemyArachnotron.updatable = false;
+        enemyArachnotron.drawable = false;
+        this.addChild(enemyArachnotron);       
+
+        // ENEMY: Pain Elemental
+        var enemyPainElemental = new PainElemental("enemyPainElemental");
+        enemyPainElemental.updatable = false;
+        enemyPainElemental.drawable = false;
+        this.addChild(enemyPainElemental);         
+
+        // ENEMY: Revenant
+        var enemyRevenant = new Revenant("enemyRevenant");
+        enemyRevenant.updatable = false;
+        enemyRevenant.drawable = false;
+        this.addChild(enemyRevenant);  
+             
+
+        // ENEMY: Mancubus
+        var enemyMancubus = new Mancubus("enemyMancubus");
+        enemyMancubus.updatable = false;
+        enemyMancubus.drawable = false;
+        this.addChild(enemyMancubus);        
+        */   
+
+        // ENEMY: Archville
+        var enemyArchville = new Archville("enemyArchville");
+        enemyArchville.updatable = false;
+        enemyArchville.drawable = false;
+        this.addChild(enemyArchville);              
     }
 
     // OVERRIDED
@@ -99,6 +179,7 @@ export class MainWorld extends World2D
     // OVERRIDED
     protected onUpdate(self:MainWorld, timing:Timing):void
     {
+        console.log(timing.deltaTime);
         if(this.state == EngineObjectState.RUNNING)
         {
             super.onUpdate(self, timing);
