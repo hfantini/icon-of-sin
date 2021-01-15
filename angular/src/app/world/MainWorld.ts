@@ -74,7 +74,6 @@ export class MainWorld extends World2D
         var background = new Background("background");
         this.addChild(background);
 
-        /*
         // ENEMY: Forman Human
         var enemyFormerHuman = new FormerHuman("formerHuman");
         enemyFormerHuman.updatable = false;
@@ -117,7 +116,7 @@ export class MainWorld extends World2D
         enemyCacodemon.drawable = false;
         this.addChild(enemyCacodemon);
 
-        // ENEMY: Cacodemon
+        // ENEMY: Hell Knight
         var enemyHellKnight = new HellKnight("enemyHellKnight");
         enemyHellKnight.updatable = false;
         enemyHellKnight.drawable = false;
@@ -153,7 +152,6 @@ export class MainWorld extends World2D
         enemyMancubus.updatable = false;
         enemyMancubus.drawable = false;
         this.addChild(enemyMancubus);        
-        */   
 
         // ENEMY: Archville
         var enemyArchville = new Archville("enemyArchville");
@@ -179,7 +177,6 @@ export class MainWorld extends World2D
     // OVERRIDED
     protected onUpdate(self:MainWorld, timing:Timing):void
     {
-        console.log(timing.deltaTime);
         if(this.state == EngineObjectState.RUNNING)
         {
             super.onUpdate(self, timing);

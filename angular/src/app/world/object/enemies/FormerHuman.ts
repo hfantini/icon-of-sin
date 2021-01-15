@@ -59,7 +59,7 @@ export class FormerHuman extends Enemy
         spriteSequenceWalk.addChild( new SpriteImage("walk_02", "/assets/enemies/formerhuman/walk_02.png") );
         spriteSequenceWalk.addChild( new SpriteImage("walk_03", "/assets/enemies/formerhuman/walk_03.png") );
         spriteSequenceWalk.addChild( new SpriteImage("walk_04", "/assets/enemies/formerhuman/walk_04.png") );
-        spriteSequenceWalk.imageUpdateRate = 30;
+        spriteSequenceWalk.imageUpdateRate = 60;
         spriteSequenceWalk.strategy = SpriteSequenceStrategy.CONTINOUS;
 
         sequenceController.addChild(spriteSequenceWalk);
@@ -70,7 +70,7 @@ export class FormerHuman extends Enemy
         var spriteSequenceAttack = new SpriteSequence("attack_1");
         spriteSequenceAttack.addChild( new SpriteImage("attack_01", "/assets/enemies/formerhuman/attack_01.png") );
         spriteSequenceAttack.addChild( new SpriteImage("attack_02", "/assets/enemies/formerhuman/attack_02.png") );
-        spriteSequenceAttack.imageUpdateRate = 30;
+        spriteSequenceAttack.imageUpdateRate = 70;
         spriteSequenceAttack.strategy = SpriteSequenceStrategy.BOOMERANG;
 
         sequenceController.addChild(spriteSequenceAttack);

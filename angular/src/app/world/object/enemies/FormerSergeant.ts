@@ -69,7 +69,7 @@ export class FormerSergeant extends Enemy
         var spriteSequenceAttack = new SpriteSequence("attack_1");
         spriteSequenceAttack.addChild( new SpriteImage("attack_01", "/assets/enemies/formersergeant/attack_01.png") );
         spriteSequenceAttack.addChild( new SpriteImage("attack_02", "/assets/enemies/formersergeant/attack_02.png") );
-        spriteSequenceAttack.imageUpdateRate = 40;
+        spriteSequenceAttack.imageUpdateRate = 60;
         spriteSequenceAttack.strategy = SpriteSequenceStrategy.BOOMERANG;
 
         sequenceController.addChild(spriteSequenceAttack);
@@ -83,7 +83,7 @@ export class FormerSergeant extends Enemy
         spriteSequenceDeath.addChild( new SpriteImage("death_04", "/assets/enemies/formersergeant/death_04.png") );
         spriteSequenceDeath.addChild( new SpriteImage("death_05", "/assets/enemies/formersergeant/death_05.png") );
         spriteSequenceDeath.addChild( new SpriteImage("death_06", "/assets/enemies/formersergeant/death_06.png") );
-        spriteSequenceDeath.imageUpdateRate = 40;
+        spriteSequenceDeath.imageUpdateRate = 60;
         spriteSequenceDeath.strategy = SpriteSequenceStrategy.CONTINOUS;
         spriteSequenceDeath.loop = false
 

@@ -974,7 +974,73 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     var _object_enemies_HeavyWeaponDude__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./object/enemies/HeavyWeaponDude */
-    "./src/app/world/object/enemies/HeavyWeaponDude.ts"); // == IMPORTS
+    "./src/app/world/object/enemies/HeavyWeaponDude.ts");
+    /* harmony import */
+
+
+    var _object_enemies_Imp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    /*! ./object/enemies/Imp */
+    "./src/app/world/object/enemies/Imp.ts");
+    /* harmony import */
+
+
+    var _object_enemies_Pink__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    /*! ./object/enemies/Pink */
+    "./src/app/world/object/enemies/Pink.ts");
+    /* harmony import */
+
+
+    var _object_enemies_LostSoul__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./object/enemies/LostSoul */
+    "./src/app/world/object/enemies/LostSoul.ts");
+    /* harmony import */
+
+
+    var _object_enemies_Cacodemon__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    /*! ./object/enemies/Cacodemon */
+    "./src/app/world/object/enemies/Cacodemon.ts");
+    /* harmony import */
+
+
+    var _object_enemies_HellKnight__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    /*! ./object/enemies/HellKnight */
+    "./src/app/world/object/enemies/HellKnight.ts");
+    /* harmony import */
+
+
+    var _object_enemies_BaronOfHell__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
+    /*! ./object/enemies/BaronOfHell */
+    "./src/app/world/object/enemies/BaronOfHell.ts");
+    /* harmony import */
+
+
+    var _object_enemies_Arachnotron__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(
+    /*! ./object/enemies/Arachnotron */
+    "./src/app/world/object/enemies/Arachnotron.ts");
+    /* harmony import */
+
+
+    var _object_enemies_PainElemental__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(
+    /*! ./object/enemies/PainElemental */
+    "./src/app/world/object/enemies/PainElemental.ts");
+    /* harmony import */
+
+
+    var _object_enemies_Revenant__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(
+    /*! ./object/enemies/Revenant */
+    "./src/app/world/object/enemies/Revenant.ts");
+    /* harmony import */
+
+
+    var _object_enemies_Mancubus__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(
+    /*! ./object/enemies/Mancubus */
+    "./src/app/world/object/enemies/Mancubus.ts");
+    /* harmony import */
+
+
+    var _object_enemies_Archville__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(
+    /*! ./object/enemies/Archville */
+    "./src/app/world/object/enemies/Archville.ts"); // == IMPORTS
     // ==================================================================================================
     // == CLASS
     // ==================================================================================================
@@ -1041,7 +1107,62 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var enemyHeavyWeaponDude = new _object_enemies_HeavyWeaponDude__WEBPACK_IMPORTED_MODULE_7__["HeavyWeaponDude"]("enemyHeavyWeaponDude");
           enemyHeavyWeaponDude.updatable = false;
           enemyHeavyWeaponDude.drawable = false;
-          this.addChild(enemyHeavyWeaponDude);
+          this.addChild(enemyHeavyWeaponDude); // ENEMY: Imp
+
+          var enemyImp = new _object_enemies_Imp__WEBPACK_IMPORTED_MODULE_8__["Imp"]("enemyImp");
+          enemyImp.updatable = false;
+          enemyImp.drawable = false;
+          this.addChild(enemyImp); // ENEMY: Pink
+
+          var enemyPink = new _object_enemies_Pink__WEBPACK_IMPORTED_MODULE_9__["Pink"]("enemyPink");
+          enemyPink.updatable = false;
+          enemyPink.drawable = false;
+          this.addChild(enemyPink); // ENEMY: Lost Soul
+
+          var enemyLostSoul = new _object_enemies_LostSoul__WEBPACK_IMPORTED_MODULE_10__["LostSoul"]("enemyLostSoul");
+          enemyLostSoul.updatable = false;
+          enemyLostSoul.drawable = false;
+          this.addChild(enemyLostSoul); // ENEMY: Cacodemon
+
+          var enemyCacodemon = new _object_enemies_Cacodemon__WEBPACK_IMPORTED_MODULE_11__["Cacodemon"]("enemyCacodemon");
+          enemyCacodemon.updatable = false;
+          enemyCacodemon.drawable = false;
+          this.addChild(enemyCacodemon); // ENEMY: Hell Knight
+
+          var enemyHellKnight = new _object_enemies_HellKnight__WEBPACK_IMPORTED_MODULE_12__["HellKnight"]("enemyHellKnight");
+          enemyHellKnight.updatable = false;
+          enemyHellKnight.drawable = false;
+          this.addChild(enemyHellKnight); // ENEMY: Baron of Hell
+
+          var enemyBaronOfHell = new _object_enemies_BaronOfHell__WEBPACK_IMPORTED_MODULE_13__["BaronOfHell"]("enemyBaronOfHell");
+          enemyBaronOfHell.updatable = false;
+          enemyBaronOfHell.drawable = false;
+          this.addChild(enemyBaronOfHell); // ENEMY: Arachnotron
+
+          var enemyArachnotron = new _object_enemies_Arachnotron__WEBPACK_IMPORTED_MODULE_14__["Arachnotron"]("enemyArachnotron");
+          enemyArachnotron.updatable = false;
+          enemyArachnotron.drawable = false;
+          this.addChild(enemyArachnotron); // ENEMY: Pain Elemental
+
+          var enemyPainElemental = new _object_enemies_PainElemental__WEBPACK_IMPORTED_MODULE_15__["PainElemental"]("enemyPainElemental");
+          enemyPainElemental.updatable = false;
+          enemyPainElemental.drawable = false;
+          this.addChild(enemyPainElemental); // ENEMY: Revenant
+
+          var enemyRevenant = new _object_enemies_Revenant__WEBPACK_IMPORTED_MODULE_16__["Revenant"]("enemyRevenant");
+          enemyRevenant.updatable = false;
+          enemyRevenant.drawable = false;
+          this.addChild(enemyRevenant); // ENEMY: Mancubus
+
+          var enemyMancubus = new _object_enemies_Mancubus__WEBPACK_IMPORTED_MODULE_17__["Mancubus"]("enemyMancubus");
+          enemyMancubus.updatable = false;
+          enemyMancubus.drawable = false;
+          this.addChild(enemyMancubus); // ENEMY: Archville
+
+          var enemyArchville = new _object_enemies_Archville__WEBPACK_IMPORTED_MODULE_18__["Archville"]("enemyArchville");
+          enemyArchville.updatable = false;
+          enemyArchville.drawable = false;
+          this.addChild(enemyArchville);
         } // OVERRIDED
 
       }, {
@@ -1184,6 +1305,556 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   },
 
   /***/
+  "./src/app/world/object/enemies/Arachnotron.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/world/object/enemies/Arachnotron.ts ***!
+    \*****************************************************/
+
+  /*! exports provided: Arachnotron */
+
+  /***/
+  function srcAppWorldObjectEnemiesArachnotronTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "Arachnotron", function () {
+      return Arachnotron;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the Arachnotron sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var Arachnotron = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR) {
+      _inherits(Arachnotron, _Enemy__WEBPACK_IMPOR);
+
+      var _super3 = _createSuper(Arachnotron);
+
+      function Arachnotron() {
+        _classCallCheck(this, Arachnotron);
+
+        return _super3.apply(this, arguments);
+      }
+
+      _createClass(Arachnotron, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(Arachnotron.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/arachnotron/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/arachnotron/attack.mp3");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/arachnotron/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/arachnotron/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/arachnotron/walk_02.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/arachnotron/walk_03.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/arachnotron/walk_04.png"));
+          spriteSequenceWalk.imageUpdateRate = 40;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/arachnotron/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/arachnotron/attack_02.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/arachnotron/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/arachnotron/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/arachnotron/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/arachnotron/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/arachnotron/death_05.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        } // == EVENTS(S)
+        // ==============================================================================================	
+        // OVERRIDED
+
+      }, {
+        key: "onLoadContent",
+        value: function onLoadContent(self) {
+          _get(_getPrototypeOf(Arachnotron.prototype), "onLoadContent", this).call(this, self);
+
+          this.MAX_WALKING_LOOP = 2;
+          this.MAX_ATTACK_LOOP = 3;
+        }
+      }]);
+
+      return Arachnotron;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/Archville.ts":
+  /*!***************************************************!*\
+    !*** ./src/app/world/object/enemies/Archville.ts ***!
+    \***************************************************/
+
+  /*! exports provided: Archville */
+
+  /***/
+  function srcAppWorldObjectEnemiesArchvilleTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "Archville", function () {
+      return Archville;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the Archville sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var Archville = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR2) {
+      _inherits(Archville, _Enemy__WEBPACK_IMPOR2);
+
+      var _super4 = _createSuper(Archville);
+
+      function Archville() {
+        _classCallCheck(this, Archville);
+
+        return _super4.apply(this, arguments);
+      }
+
+      _createClass(Archville, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(Archville.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/archville/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/archville/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/archville/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/archville/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/archville/walk_02.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/archville/walk_03.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/archville/walk_04.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_05", "/assets/enemies/archville/walk_05.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_06", "/assets/enemies/archville/walk_06.png"));
+          spriteSequenceWalk.imageUpdateRate = 30;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/archville/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/archville/attack_02.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_03", "/assets/enemies/archville/attack_03.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_04", "/assets/enemies/archville/attack_04.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_05", "/assets/enemies/archville/attack_05.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_06", "/assets/enemies/archville/attack_06.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_07", "/assets/enemies/archville/attack_07.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_08", "/assets/enemies/archville/attack_08.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_09", "/assets/enemies/archville/attack_09.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_10", "/assets/enemies/archville/attack_10.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/archville/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/archville/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/archville/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/archville/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/archville/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/archville/death_06.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_07", "/assets/enemies/archville/death_07.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_08", "/assets/enemies/archville/death_08.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_09", "/assets/enemies/archville/death_09.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_10", "/assets/enemies/archville/death_10.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        } // == EVENTS(S)
+        // ==============================================================================================	
+        // OVERRIDED
+
+      }, {
+        key: "onLoadContent",
+        value: function onLoadContent(self) {
+          _get(_getPrototypeOf(Archville.prototype), "onLoadContent", this).call(this, self); //this.MAX_ATTACK_LOOP = 3;
+
+        }
+      }]);
+
+      return Archville;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/BaronOfHell.ts":
+  /*!*****************************************************!*\
+    !*** ./src/app/world/object/enemies/BaronOfHell.ts ***!
+    \*****************************************************/
+
+  /*! exports provided: BaronOfHell */
+
+  /***/
+  function srcAppWorldObjectEnemiesBaronOfHellTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "BaronOfHell", function () {
+      return BaronOfHell;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the BaronOfHell sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var BaronOfHell = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR3) {
+      _inherits(BaronOfHell, _Enemy__WEBPACK_IMPOR3);
+
+      var _super5 = _createSuper(BaronOfHell);
+
+      function BaronOfHell() {
+        _classCallCheck(this, BaronOfHell);
+
+        return _super5.apply(this, arguments);
+      }
+
+      _createClass(BaronOfHell, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(BaronOfHell.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/baronofhell/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/baronofhell/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/baronofhell/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/baronofhell/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/baronofhell/walk_02.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/baronofhell/walk_03.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/baronofhell/walk_04.png"));
+          spriteSequenceWalk.imageUpdateRate = 40;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].BOOMERANG;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/baronofhell/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/baronofhell/attack_02.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_03", "/assets/enemies/baronofhell/attack_03.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_04", "/assets/enemies/baronofhell/attack_04.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/baronofhell/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/baronofhell/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/baronofhell/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/baronofhell/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/baronofhell/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/baronofhell/death_06.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_07", "/assets/enemies/baronofhell/death_07.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        } // == EVENTS(S)
+        // ==============================================================================================	
+        // OVERRIDED
+
+      }, {
+        key: "onLoadContent",
+        value: function onLoadContent(self) {
+          _get(_getPrototypeOf(BaronOfHell.prototype), "onLoadContent", this).call(this, self);
+
+          this.MAX_WALKING_LOOP = 75;
+        }
+      }]);
+
+      return BaronOfHell;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/Cacodemon.ts":
+  /*!***************************************************!*\
+    !*** ./src/app/world/object/enemies/Cacodemon.ts ***!
+    \***************************************************/
+
+  /*! exports provided: Cacodemon */
+
+  /***/
+  function srcAppWorldObjectEnemiesCacodemonTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "Cacodemon", function () {
+      return Cacodemon;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the Cacodemon sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var Cacodemon = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR4) {
+      _inherits(Cacodemon, _Enemy__WEBPACK_IMPOR4);
+
+      var _super6 = _createSuper(Cacodemon);
+
+      function Cacodemon() {
+        _classCallCheck(this, Cacodemon);
+
+        return _super6.apply(this, arguments);
+      }
+
+      _createClass(Cacodemon, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(Cacodemon.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/cacodemon/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/cacodemon/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/cacodemon/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/cacodemon/walk_01.png"));
+          spriteSequenceWalk.imageUpdateRate = 10;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/cacodemon/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/cacodemon/attack_02.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_03", "/assets/enemies/cacodemon/attack_03.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/cacodemon/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/cacodemon/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/cacodemon/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/cacodemon/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/cacodemon/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/cacodemon/death_06.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_07", "/assets/enemies/cacodemon/death_07.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_08", "/assets/enemies/cacodemon/death_08.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        }
+      }]);
+
+      return Cacodemon;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
   "./src/app/world/object/enemies/Enemy.ts":
   /*!***********************************************!*\
     !*** ./src/app/world/object/enemies/Enemy.ts ***!
@@ -1236,7 +1907,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var Enemy = /*#__PURE__*/function (_dographics_library__3) {
       _inherits(Enemy, _dographics_library__3);
 
-      var _super3 = _createSuper(Enemy);
+      var _super7 = _createSuper(Enemy);
 
       function Enemy() {
         var _this2;
@@ -1245,7 +1916,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         // == DECLARATIONS
         // ==============================================================================================
-        _this2 = _super3.apply(this, arguments); // -- CONST -------------------------------------------------------------------------------------
+        _this2 = _super7.apply(this, arguments); // -- CONST -------------------------------------------------------------------------------------
 
         _this2.MAX_WALKING_LOOP = 1;
         _this2.MAX_ATTACK_LOOP = 1;
@@ -1253,7 +1924,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
         _this2._enemyState = _strucutures_EnemyState__WEBPACK_IMPORTED_MODULE_2__["EnemyState"].STATE_WALKING;
         _this2._loopCount = 0;
-        _this2._currentAttack = 1;
+        _this2._currentAttack = 0;
         _this2._timeOfDeath = null;
         return _this2;
       } // == CONSTRUCTOR
@@ -1327,7 +1998,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             } else {
               if (seqController.hasSequence("attack_" + (this._currentAttack + 1))) {
                 this._currentAttack++;
-                seqController.changeCurrentSequence("attack_" + this._currentAttack);
               } else {
                 this._currentAttack = 1;
               }
@@ -1339,12 +2009,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             if (seqController.currentActiveSequence.id != "attack_" + this._currentAttack) {
               seqController.changeCurrentSequence("attack_" + this._currentAttack);
 
-              if (audioController.getState("attack") != dographics_library__WEBPACK_IMPORTED_MODULE_1__["AudioPlayerState"].PLAYING) {
-                audioController.play("attack");
+              if (this._currentAttack == 1) {
+                if (audioController.getState("attack") != dographics_library__WEBPACK_IMPORTED_MODULE_1__["AudioPlayerState"].PLAYING) {
+                  audioController.play("attack");
+                }
+              } else {
+                if (audioController.getState("attack" + this._currentAttack) != dographics_library__WEBPACK_IMPORTED_MODULE_1__["AudioPlayerState"].PLAYING) {
+                  audioController.play("attack" + this._currentAttack);
+                }
               }
             }
 
-            if (seqController.currentActiveSequence.sequenceFinished) {
+            if (seqController.currentActiveSequence.loopCounter > 0) {
               if (seqController.currentActiveSequence.loopCounter >= this.MAX_ATTACK_LOOP) {
                 self._enemyState = _strucutures_EnemyState__WEBPACK_IMPORTED_MODULE_2__["EnemyState"].STATE_WALKING;
               }
@@ -1364,6 +2040,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               }
 
               if (timing.elapsedTime - this._timeOfDeath > this.DELAY_NEXT_ENEMY) {
+                this._currentAttack = 0;
                 this._timeOfDeath = null;
                 self._enemyState = _strucutures_EnemyState__WEBPACK_IMPORTED_MODULE_2__["EnemyState"].STATE_NEXT;
               }
@@ -1435,15 +2112,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
      */
 
 
-    var FormerHuman = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR) {
-      _inherits(FormerHuman, _Enemy__WEBPACK_IMPOR);
+    var FormerHuman = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR5) {
+      _inherits(FormerHuman, _Enemy__WEBPACK_IMPOR5);
 
-      var _super4 = _createSuper(FormerHuman);
+      var _super8 = _createSuper(FormerHuman);
 
       function FormerHuman() {
         _classCallCheck(this, FormerHuman);
 
-        return _super4.apply(this, arguments);
+        return _super8.apply(this, arguments);
       }
 
       _createClass(FormerHuman, [{
@@ -1477,14 +2154,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/formerhuman/walk_02.png"));
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/formerhuman/walk_03.png"));
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/formerhuman/walk_04.png"));
-          spriteSequenceWalk.imageUpdateRate = 20;
+          spriteSequenceWalk.imageUpdateRate = 60;
           spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
           sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
 
+          this.MAX_WALKING_LOOP = 4;
           var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
           spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/formerhuman/attack_01.png"));
           spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/formerhuman/attack_02.png"));
-          spriteSequenceAttack.imageUpdateRate = 15;
+          spriteSequenceAttack.imageUpdateRate = 70;
           spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].BOOMERANG;
           sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
 
@@ -1494,7 +2172,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/formerhuman/death_03.png"));
           spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/formerhuman/death_04.png"));
           spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/formerhuman/death_05.png"));
-          spriteSequenceDeath.imageUpdateRate = 15;
+          spriteSequenceDeath.imageUpdateRate = 40;
           spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
           spriteSequenceDeath.loop = false;
           sequenceController.addChild(spriteSequenceDeath);
@@ -1557,15 +2235,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
      */
 
 
-    var FormerSergeant = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR2) {
-      _inherits(FormerSergeant, _Enemy__WEBPACK_IMPOR2);
+    var FormerSergeant = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR6) {
+      _inherits(FormerSergeant, _Enemy__WEBPACK_IMPOR6);
 
-      var _super5 = _createSuper(FormerSergeant);
+      var _super9 = _createSuper(FormerSergeant);
 
       function FormerSergeant() {
         _classCallCheck(this, FormerSergeant);
 
-        return _super5.apply(this, arguments);
+        return _super9.apply(this, arguments);
       }
 
       _createClass(FormerSergeant, [{
@@ -1599,14 +2277,14 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/formersergeant/walk_02.png"));
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/formersergeant/walk_03.png"));
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/formersergeant/walk_04.png"));
-          spriteSequenceWalk.imageUpdateRate = 20;
+          spriteSequenceWalk.imageUpdateRate = 60;
           spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
           sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
 
           var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
           spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/formersergeant/attack_01.png"));
           spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/formersergeant/attack_02.png"));
-          spriteSequenceAttack.imageUpdateRate = 15;
+          spriteSequenceAttack.imageUpdateRate = 60;
           spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].BOOMERANG;
           sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
 
@@ -1617,10 +2295,20 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/formersergeant/death_04.png"));
           spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/formersergeant/death_05.png"));
           spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/formersergeant/death_06.png"));
-          spriteSequenceDeath.imageUpdateRate = 15;
+          spriteSequenceDeath.imageUpdateRate = 60;
           spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
           spriteSequenceDeath.loop = false;
           sequenceController.addChild(spriteSequenceDeath);
+        } // == EVENTS(S)
+        // ==============================================================================================	
+        // OVERRIDED
+
+      }, {
+        key: "onLoadContent",
+        value: function onLoadContent(self) {
+          _get(_getPrototypeOf(FormerSergeant.prototype), "onLoadContent", this).call(this, self);
+
+          this.MAX_WALKING_LOOP = 5;
         }
       }]);
 
@@ -1680,15 +2368,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
      */
 
 
-    var HeavyWeaponDude = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR3) {
-      _inherits(HeavyWeaponDude, _Enemy__WEBPACK_IMPOR3);
+    var HeavyWeaponDude = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR7) {
+      _inherits(HeavyWeaponDude, _Enemy__WEBPACK_IMPOR7);
 
-      var _super6 = _createSuper(HeavyWeaponDude);
+      var _super10 = _createSuper(HeavyWeaponDude);
 
       function HeavyWeaponDude() {
         _classCallCheck(this, HeavyWeaponDude);
 
-        return _super6.apply(this, arguments);
+        return _super10.apply(this, arguments);
       }
 
       _createClass(HeavyWeaponDude, [{
@@ -1708,7 +2396,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           var audioController = this.getChildByName("audioController"); // == AUDIO: Attack
 
-          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/heavyweapondude/attack.wav");
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/heavyweapondude/attack.mp3");
           audioController.addChild(sndAttack); // == AUDIO: Death
 
           var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/heavyweapondude/death.wav");
@@ -1717,20 +2405,21 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
 
+          this.MAX_WALKING_LOOP = 4;
           var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/heavyweapondude/walk_01.png"));
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/heavyweapondude/walk_02.png"));
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/heavyweapondude/walk_03.png"));
           spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/heavyweapondude/walk_04.png"));
-          spriteSequenceWalk.imageUpdateRate = 20;
+          spriteSequenceWalk.imageUpdateRate = 40;
           spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
           sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
 
           var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
           spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/heavyweapondude/attack_01.png"));
           spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/heavyweapondude/attack_02.png"));
-          spriteSequenceAttack.imageUpdateRate = 15;
-          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].BOOMERANG;
+          spriteSequenceAttack.imageUpdateRate = 45;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
           sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
 
           var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
@@ -1741,11 +2430,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/heavyweapondude/death_05.png"));
           spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/heavyweapondude/death_06.png"));
           spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_07", "/assets/enemies/heavyweapondude/death_07.png"));
-          spriteSequenceDeath.imageUpdateRate = 15;
+          spriteSequenceDeath.imageUpdateRate = 40;
           spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
           spriteSequenceDeath.loop = false;
           sequenceController.addChild(spriteSequenceDeath);
-        } // OVERRIDED
+        } // == EVENTS(S)
+        // ==============================================================================================	
+        // OVERRIDED
 
       }, {
         key: "onLoadContent",
@@ -1757,6 +2448,951 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }]);
 
       return HeavyWeaponDude;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/HellKnight.ts":
+  /*!****************************************************!*\
+    !*** ./src/app/world/object/enemies/HellKnight.ts ***!
+    \****************************************************/
+
+  /*! exports provided: HellKnight */
+
+  /***/
+  function srcAppWorldObjectEnemiesHellKnightTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HellKnight", function () {
+      return HellKnight;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the HellKnight sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var HellKnight = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR8) {
+      _inherits(HellKnight, _Enemy__WEBPACK_IMPOR8);
+
+      var _super11 = _createSuper(HellKnight);
+
+      function HellKnight() {
+        _classCallCheck(this, HellKnight);
+
+        return _super11.apply(this, arguments);
+      }
+
+      _createClass(HellKnight, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(HellKnight.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/hellknight/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/hellknight/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/hellknight/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/hellknight/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/hellknight/walk_02.png"));
+          spriteSequenceWalk.imageUpdateRate = 40;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].BOOMERANG;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/hellknight/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/hellknight/attack_02.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_03", "/assets/enemies/hellknight/attack_03.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_04", "/assets/enemies/hellknight/attack_04.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/hellknight/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/hellknight/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/hellknight/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/hellknight/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/hellknight/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/hellknight/death_06.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_07", "/assets/enemies/hellknight/death_07.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        } // == EVENTS(S)
+        // ==============================================================================================	
+        // OVERRIDED
+
+      }, {
+        key: "onLoadContent",
+        value: function onLoadContent(self) {
+          _get(_getPrototypeOf(HellKnight.prototype), "onLoadContent", this).call(this, self);
+
+          this.MAX_WALKING_LOOP = 75;
+        }
+      }]);
+
+      return HellKnight;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/Imp.ts":
+  /*!*********************************************!*\
+    !*** ./src/app/world/object/enemies/Imp.ts ***!
+    \*********************************************/
+
+  /*! exports provided: Imp */
+
+  /***/
+  function srcAppWorldObjectEnemiesImpTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "Imp", function () {
+      return Imp;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the Imp sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var Imp = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR9) {
+      _inherits(Imp, _Enemy__WEBPACK_IMPOR9);
+
+      var _super12 = _createSuper(Imp);
+
+      function Imp() {
+        _classCallCheck(this, Imp);
+
+        return _super12.apply(this, arguments);
+      }
+
+      _createClass(Imp, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(Imp.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/imp/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/imp/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/imp/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/imp/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/imp/walk_02.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/imp/walk_03.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/imp/walk_04.png"));
+          spriteSequenceWalk.imageUpdateRate = 40;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/imp/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/imp/attack_02.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_03", "/assets/enemies/imp/attack_03.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/imp/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/imp/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/imp/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/imp/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/imp/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/imp/death_06.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        }
+      }]);
+
+      return Imp;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/LostSoul.ts":
+  /*!**************************************************!*\
+    !*** ./src/app/world/object/enemies/LostSoul.ts ***!
+    \**************************************************/
+
+  /*! exports provided: LostSoul */
+
+  /***/
+  function srcAppWorldObjectEnemiesLostSoulTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "LostSoul", function () {
+      return LostSoul;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the LostSoul sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var LostSoul = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR10) {
+      _inherits(LostSoul, _Enemy__WEBPACK_IMPOR10);
+
+      var _super13 = _createSuper(LostSoul);
+
+      function LostSoul() {
+        _classCallCheck(this, LostSoul);
+
+        return _super13.apply(this, arguments);
+      }
+
+      _createClass(LostSoul, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(LostSoul.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/lostsoul/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/lostsoul/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/lostsoul/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/lostsoul/walk_02.png"));
+          spriteSequenceWalk.imageUpdateRate = 40;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/lostsoul/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/lostsoul/attack_02.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/lostsoul/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/lostsoul/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/lostsoul/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/lostsoul/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/lostsoul/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/lostsoul/death_06.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_07", "/assets/enemies/lostsoul/death_07.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_08", "/assets/enemies/lostsoul/death_08.png"));
+          spriteSequenceDeath.imageUpdateRate = 50;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        } // == EVENTS(S)
+        // ==============================================================================================	
+        // OVERRIDED
+
+      }, {
+        key: "onLoadContent",
+        value: function onLoadContent(self) {
+          _get(_getPrototypeOf(LostSoul.prototype), "onLoadContent", this).call(this, self);
+
+          this.MAX_WALKING_LOOP = 200;
+        }
+      }]);
+
+      return LostSoul;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/Mancubus.ts":
+  /*!**************************************************!*\
+    !*** ./src/app/world/object/enemies/Mancubus.ts ***!
+    \**************************************************/
+
+  /*! exports provided: Mancubus */
+
+  /***/
+  function srcAppWorldObjectEnemiesMancubusTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "Mancubus", function () {
+      return Mancubus;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the Mancubus sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var Mancubus = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR11) {
+      _inherits(Mancubus, _Enemy__WEBPACK_IMPOR11);
+
+      var _super14 = _createSuper(Mancubus);
+
+      function Mancubus() {
+        _classCallCheck(this, Mancubus);
+
+        return _super14.apply(this, arguments);
+      }
+
+      _createClass(Mancubus, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(Mancubus.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/mancubus/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/mancubus/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/mancubus/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/mancubus/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/mancubus/walk_02.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/mancubus/walk_03.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/mancubus/walk_04.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_05", "/assets/enemies/mancubus/walk_05.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_06", "/assets/enemies/mancubus/walk_06.png"));
+          spriteSequenceWalk.imageUpdateRate = 30;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/mancubus/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/mancubus/attack_02.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_03", "/assets/enemies/mancubus/attack_03.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/mancubus/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/mancubus/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/mancubus/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/mancubus/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/mancubus/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/mancubus/death_06.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_07", "/assets/enemies/mancubus/death_07.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_08", "/assets/enemies/mancubus/death_08.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_09", "/assets/enemies/mancubus/death_09.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_10", "/assets/enemies/mancubus/death_10.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_11", "/assets/enemies/mancubus/death_11.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        } // == EVENTS(S)
+        // ==============================================================================================	
+        // OVERRIDED
+
+      }, {
+        key: "onLoadContent",
+        value: function onLoadContent(self) {
+          _get(_getPrototypeOf(Mancubus.prototype), "onLoadContent", this).call(this, self);
+
+          this.MAX_ATTACK_LOOP = 3;
+        }
+      }]);
+
+      return Mancubus;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/PainElemental.ts":
+  /*!*******************************************************!*\
+    !*** ./src/app/world/object/enemies/PainElemental.ts ***!
+    \*******************************************************/
+
+  /*! exports provided: PainElemental */
+
+  /***/
+  function srcAppWorldObjectEnemiesPainElementalTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "PainElemental", function () {
+      return PainElemental;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the PainElemental sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var PainElemental = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR12) {
+      _inherits(PainElemental, _Enemy__WEBPACK_IMPOR12);
+
+      var _super15 = _createSuper(PainElemental);
+
+      function PainElemental() {
+        _classCallCheck(this, PainElemental);
+
+        return _super15.apply(this, arguments);
+      }
+
+      _createClass(PainElemental, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(PainElemental.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/painelemental/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/painelemental/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/painelemental/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/painelemental/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/painelemental/walk_02.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/painelemental/walk_03.png"));
+          spriteSequenceWalk.imageUpdateRate = 40;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/painelemental/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/painelemental/attack_02.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_03", "/assets/enemies/painelemental/attack_03.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/painelemental/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/painelemental/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/painelemental/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/painelemental/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/painelemental/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/painelemental/death_06.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_07", "/assets/enemies/painelemental/death_07.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        } // == EVENTS(S)
+        // ==============================================================================================	
+        // OVERRIDED
+
+      }, {
+        key: "onLoadContent",
+        value: function onLoadContent(self) {
+          _get(_getPrototypeOf(PainElemental.prototype), "onLoadContent", this).call(this, self);
+
+          this.MAX_WALKING_LOOP = 2;
+          this.MAX_ATTACK_LOOP = 1;
+        }
+      }]);
+
+      return PainElemental;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/Pink.ts":
+  /*!**********************************************!*\
+    !*** ./src/app/world/object/enemies/Pink.ts ***!
+    \**********************************************/
+
+  /*! exports provided: Pink */
+
+  /***/
+  function srcAppWorldObjectEnemiesPinkTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "Pink", function () {
+      return Pink;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the Pink sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var Pink = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR13) {
+      _inherits(Pink, _Enemy__WEBPACK_IMPOR13);
+
+      var _super16 = _createSuper(Pink);
+
+      function Pink() {
+        _classCallCheck(this, Pink);
+
+        return _super16.apply(this, arguments);
+      }
+
+      _createClass(Pink, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(Pink.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/pink/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/pink/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/pink/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/pink/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/pink/walk_02.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/pink/walk_03.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/pink/walk_04.png"));
+          spriteSequenceWalk.imageUpdateRate = 40;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/pink/attack_01.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/pink/attack_02.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_03", "/assets/enemies/pink/attack_03.png"));
+          spriteSequenceAttack.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_04", "/assets/enemies/pink/attack_04.png"));
+          spriteSequenceAttack.imageUpdateRate = 30;
+          spriteSequenceAttack.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/pink/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/pink/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/pink/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/pink/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/pink/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/pink/death_06.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        }
+      }]);
+
+      return Pink;
+    }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
+    /***/
+
+  },
+
+  /***/
+  "./src/app/world/object/enemies/Revenant.ts":
+  /*!**************************************************!*\
+    !*** ./src/app/world/object/enemies/Revenant.ts ***!
+    \**************************************************/
+
+  /*! exports provided: Revenant */
+
+  /***/
+  function srcAppWorldObjectEnemiesRevenantTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "Revenant", function () {
+      return Revenant;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _Enemy__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./Enemy */
+    "./src/app/world/object/enemies/Enemy.ts");
+    /* harmony import */
+
+
+    var dographics_library__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! dographics-library */
+    "./node_modules/dographics-library/fesm2015/dographics-library.js"); // == IMPORTS
+    // ==================================================================================================
+    // == CLASS
+    // ==================================================================================================
+
+    /**
+     *
+     *  Define the Revenant sprite class.
+     *
+     *  @author Henrique Fantini
+     *
+     */
+
+
+    var Revenant = /*#__PURE__*/function (_Enemy__WEBPACK_IMPOR14) {
+      _inherits(Revenant, _Enemy__WEBPACK_IMPOR14);
+
+      var _super17 = _createSuper(Revenant);
+
+      function Revenant() {
+        _classCallCheck(this, Revenant);
+
+        return _super17.apply(this, arguments);
+      }
+
+      _createClass(Revenant, [{
+        key: "onInit",
+        // == DECLARATIONS
+        // ==============================================================================================
+        // -- CONST -------------------------------------------------------------------------------------
+        // -- VAR ---------------------------------------------------------------------------------------
+        // == CONSTRUCTOR
+        // ==============================================================================================
+        // == METHOD(S)
+        // ==============================================================================================
+        //OVERRIDED
+        value: function onInit() {
+          _get(_getPrototypeOf(Revenant.prototype), "onInit", this).call(this); // == AUDIO ================
+
+
+          var audioController = this.getChildByName("audioController"); // == AUDIO: Sight
+
+          var sndSight = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("sight", "/assets/enemies/revenant/sight.wav");
+          audioController.addChild(sndSight); // == AUDIO: Attack 1
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack", "/assets/enemies/revenant/attack.wav");
+          audioController.addChild(sndAttack); // == AUDIO: Attack 2
+
+          var sndAttack = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("attack2", "/assets/enemies/revenant/attack2.mp3");
+          audioController.addChild(sndAttack); // == AUDIO: Death
+
+          var sndDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["AudioContent"]("death", "/assets/enemies/revenant/death.wav");
+          audioController.addChild(sndDeath);
+          this.addChild(audioController); // == SOUNDS ===============
+
+          var sequenceController = this.getChildByName("sequenceController"); // == SPRITES: Walking
+
+          var spriteSequenceWalk = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("walk");
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_01", "/assets/enemies/revenant/walk_01.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_02", "/assets/enemies/revenant/walk_02.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_03", "/assets/enemies/revenant/walk_03.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_04", "/assets/enemies/revenant/walk_04.png"));
+          spriteSequenceWalk.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("walk_05", "/assets/enemies/revenant/walk_05.png"));
+          spriteSequenceWalk.imageUpdateRate = 40;
+          spriteSequenceWalk.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceWalk); // == SPRITES: Attack 1
+
+          var spriteSequenceAttack1 = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_1");
+          spriteSequenceAttack1.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_01", "/assets/enemies/revenant/attack_01_01.png"));
+          spriteSequenceAttack1.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02", "/assets/enemies/revenant/attack_01_02.png"));
+          spriteSequenceAttack1.imageUpdateRate = 20;
+          spriteSequenceAttack1.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack1); // == SPRITES: Attack 2
+
+          var spriteSequenceAttack2 = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("attack_2");
+          spriteSequenceAttack2.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02_01", "/assets/enemies/revenant/attack_02_01.png"));
+          spriteSequenceAttack2.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02_02", "/assets/enemies/revenant/attack_02_02.png"));
+          spriteSequenceAttack2.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("attack_02_03", "/assets/enemies/revenant/attack_02_03.png"));
+          spriteSequenceAttack2.imageUpdateRate = 30;
+          spriteSequenceAttack2.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          sequenceController.addChild(spriteSequenceAttack2); // == SPRITES: Death
+
+          var spriteSequenceDeath = new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequence"]("death");
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_01", "/assets/enemies/revenant/death_01.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_02", "/assets/enemies/revenant/death_02.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_03", "/assets/enemies/revenant/death_03.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_04", "/assets/enemies/revenant/death_04.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_05", "/assets/enemies/revenant/death_05.png"));
+          spriteSequenceDeath.addChild(new dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteImage"]("death_06", "/assets/enemies/revenant/death_06.png"));
+          spriteSequenceDeath.imageUpdateRate = 40;
+          spriteSequenceDeath.strategy = dographics_library__WEBPACK_IMPORTED_MODULE_2__["SpriteSequenceStrategy"].CONTINOUS;
+          spriteSequenceDeath.loop = false;
+          sequenceController.addChild(spriteSequenceDeath);
+        }
+      }]);
+
+      return Revenant;
     }(_Enemy__WEBPACK_IMPORTED_MODULE_1__["Enemy"]);
     /***/
 

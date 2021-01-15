@@ -82,7 +82,7 @@ export class Imp extends Enemy
         // == SPRITES: Death
 
         var spriteSequenceDeath = new SpriteSequence("death");
-        //spriteSequenceDeath.addChild( new SpriteImage("death_01", "/assets/enemies/imp/death_01.png") );
+        spriteSequenceDeath.addChild( new SpriteImage("death_01", "/assets/enemies/imp/death_01.png") );
         spriteSequenceDeath.addChild( new SpriteImage("death_02", "/assets/enemies/imp/death_02.png") );
         spriteSequenceDeath.addChild( new SpriteImage("death_03", "/assets/enemies/imp/death_03.png") );
         spriteSequenceDeath.addChild( new SpriteImage("death_04", "/assets/enemies/imp/death_04.png") );
